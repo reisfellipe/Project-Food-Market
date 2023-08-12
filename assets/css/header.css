@@ -50,6 +50,7 @@ body {
 
 .menu {
     cursor: pointer;
+    display: none;
 }
 
 .menu .bar {
