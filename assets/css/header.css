@@ -1,0 +1,68 @@
+body {
+    color: var(--dark);
+    background-color: var(--white);
+}
+
+.navigator {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    width: 100%;
+    background: var(--white);
+    transition: all 0.5s;
+}
+
+.navigator .logo {
+    color: var(--dark);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.logo span {
+    color: var(--red);
+}
+
+.navigator ul {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.navigator ul li a {
+    color: var(--dark);
+    font-size: 17px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.navigator ul li a:hover{
+    color: var(--red);
+}
+
+.navigator i{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+/*Aqui será o menu-burguer*/
+
+.menu {
+    cursor: pointer;
+}
+
+.menu .bar {
+    display: block;
+    width: 25px;
+    height: 3.3px;
+    border-radius: 3px;
+    background-color: var(--dark);
+    margin: 6px auto;
+    transition: all 0.3s;
+}
+
+.menu .bar:nth-child(1),
+.menu .bar:nth-child(3){
+    background-color: var(--red);
+}
